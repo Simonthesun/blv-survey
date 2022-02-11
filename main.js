@@ -5,7 +5,7 @@ $(document).ready(() => {
 });
 
 function redirect() {
-    let links = ["https://twitter.com", "https://reddit.com", "https://facebook.com", "https://instagram.com", "https://google.com"];
+    let links = ["https://docs.google.com/forms/d/e/1FAIpQLScnuyikk_jJHriOJ7jqZq2W0qsLd0zW1sVXNQwrzz9SGA1xWg/viewform?usp=sf_link"];
     let cookie = getCookieIfExists();
 
     if (cookie == null) {
