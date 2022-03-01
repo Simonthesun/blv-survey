@@ -9,7 +9,7 @@ function redirect() {
     let cookie = getCookieIfExists();
 
     if (cookie == null) {
-        let n = getRandomInt(0, 1); //remember to change this when changing links
+        let n = getRandomInt(0, 10); //remember to change this when changing links
         writeCookie(n);
         var url = links[n]
     } else {
