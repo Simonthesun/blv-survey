@@ -5,7 +5,7 @@ $(document).ready(() => {
 });
 
 function redirect() {
-    let links = ["https://docs.google.com/forms/d/e/1FAIpQLScnuyikk_jJHriOJ7jqZq2W0qsLd0zW1sVXNQwrzz9SGA1xWg/viewform?usp=sf_link"];
+    let links = ["https://forms.gle/WPmGUA2yWdu5Aucy8", "https://forms.gle/amqmnBim7tQFDZZUA", "https://forms.gle/cuFAEfAdV8W56E7Y8", "https://forms.gle/QaGpo9XcBS9pqBph9", "https://forms.gle/Qj68rfKreKLnkwbF8", "https://forms.gle/jKGbNDjMCnpuYHVH8", "https://forms.gle/mmPuV5pLLVBuhxw26", "https://forms.gle/T3LUAMvymuJ4bJrP6", "https://forms.gle/58gu3RFF9jDKdxoa8", "https://forms.gle/7mhNzYhZzJyUGtZi6"];
     let cookie = getCookieIfExists();
 
     if (cookie == null) {
